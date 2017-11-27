@@ -33,4 +33,14 @@ public class Problem4Test {
 
         Assert.assertEquals(expected, actual);
     }
+
+    @Test
+    public void canBePalindrome_ANOTHERONE() {
+        String input = "ayyylmao";
+
+        String expected = "NO";
+        String actual = problem4.canBePalindrome(input);
+
+        Assert.assertEquals(expected, actual);
+    }
 }
